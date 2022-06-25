@@ -1,0 +1,86 @@
+2022-06-23 21:40:41,512 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:41:41,787 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 5, 'w': 0.7}
+2022-06-23 21:41:47,197 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.082770731784236, best pos: [0.06242145 0.05358095 0.05948632 0.04400516]
+2022-06-23 21:41:47,333 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:42:15,982 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 5, 'w': 0.7}
+2022-06-23 21:42:21,207 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0998578696121541, best pos: [0.07527971 0.04617676 0.07280604 0.03489456]
+2022-06-23 21:42:21,326 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:43:04,943 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 5, 'w': 0.7}
+2022-06-23 21:43:07,041 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.2995020882752417, best pos: [0.08498838 0.05124884 0.08275882 0.04991209]
+2022-06-23 21:43:07,176 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:43:41,448 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 2, 'w': 0.7}
+2022-06-23 21:43:43,631 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.6794231576266194, best pos: [0.09274143 0.05577127 0.11580911 0.0810981 ]
+2022-06-23 21:43:43,774 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:44:11,937 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 2, 'w': 0.7}
+2022-06-23 21:44:14,013 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.4218168871069232, best pos: [0.06525905 0.05122564 0.0911121  0.07967871]
+2022-06-23 21:44:24,583 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 3, 'c2': 2, 'w': 0.7}
+2022-06-23 21:44:26,847 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.318293727205911, best pos: [0.08464662 0.04093817 0.10585064 0.0465562 ]
+2022-06-23 21:44:43,089 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.4}
+2022-06-23 21:44:45,167 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.058234290679994, best pos: [0.08321848 0.03601199 0.06256827 0.03953082]
+2022-06-23 21:44:54,044 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.5}
+2022-06-23 21:44:56,403 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.3019486181311053, best pos: [0.06058274 0.09018684 0.06592206 0.04210043]
+2022-06-23 21:45:16,095 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.5}
+2022-06-23 21:45:18,760 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.161493441367103, best pos: [0.10062224 0.03702473 0.07379527 0.03516599]
+2022-06-23 21:45:30,147 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.5}
+2022-06-23 21:45:34,076 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0363173973757913, best pos: [0.05310098 0.04527847 0.0814502  0.03481593]
+2022-06-23 21:49:36,868 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.5}
+2022-06-23 21:49:40,904 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.1163861797492731, best pos: [0.0561895  0.04013998 0.06546306 0.06348308]
+2022-06-23 21:49:51,407 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.5}
+2022-06-23 21:49:55,176 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0368078153784455, best pos: [0.06856558 0.05016087 0.05373962 0.03913472]
+2022-06-23 21:50:03,116 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.4}
+2022-06-23 21:50:07,139 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.2472395568164276, best pos: [0.04888248 0.03828394 0.1041439  0.06474475]
+2022-06-23 21:50:14,154 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.7}
+2022-06-23 21:50:18,022 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.2430836660189204, best pos: [0.0665886  0.04501436 0.10573572 0.04292609]
+2022-06-23 21:50:24,746 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:50:28,878 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0135491579461493, best pos: [0.0577775  0.03732475 0.0654686  0.04722489]
+2022-06-23 21:50:40,881 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 4, 'w': 0.8}
+2022-06-23 21:50:44,893 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0292230160483675, best pos: [0.07140449 0.03790656 0.0600536  0.04325635]
+2022-06-23 21:50:55,672 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 3, 'c2': 3, 'w': 0.8}
+2022-06-23 21:50:59,567 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0135307726395335, best pos: [0.05331743 0.06466398 0.04987035 0.03481387]
+2022-06-23 21:51:07,312 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:51:11,263 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.1294144244327944, best pos: [0.0677432  0.04268999 0.07498407 0.04751118]
+2022-06-23 21:51:16,250 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:51:20,046 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0429648210001436, best pos: [0.0481255  0.03928421 0.09445111 0.0359923 ]
+2022-06-23 21:51:28,483 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:51:32,348 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.1217051050610383, best pos: [0.09668906 0.03519817 0.05488943 0.04707321]
+2022-06-23 21:51:45,294 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:51:49,715 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.1245284110855716, best pos: [0.07156011 0.06672684 0.05471053 0.03487477]
+2022-06-23 21:51:58,247 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:52:02,677 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.981234203399734, best pos: [0.04950324 0.05802971 0.04781164 0.04020234]
+2022-06-23 21:52:08,983 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:52:13,574 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.155599033461404, best pos: [0.09329891 0.04690289 0.0543978  0.0441535 ]
+2022-06-23 21:52:28,097 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:52:32,774 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.196031093756096, best pos: [0.06890518 0.03712623 0.08271234 0.05804415]
+2022-06-23 21:52:41,160 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:52:45,769 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0350289561322357, best pos: [0.05359794 0.0532993  0.06036956 0.04189347]
+2022-06-23 21:52:51,021 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:52:55,740 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.9782155325163341, best pos: [0.0503405  0.0459683  0.06110657 0.0412187 ]
+2022-06-23 21:53:10,745 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:53:15,356 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0741428501152368, best pos: [0.06612537 0.04132235 0.07595857 0.03974392]
+2022-06-23 21:53:38,908 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:53:43,455 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.017500057159149, best pos: [0.05378035 0.04567515 0.05175841 0.05274303]
+2022-06-23 21:53:43,600 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:53:52,769 - pyswarms.single.global_best - INFO - Optimize for 8000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:53:58,457 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0916703597907178, best pos: [0.06222548 0.04801491 0.04932875 0.05882635]
+2022-06-23 21:53:58,591 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:54:11,205 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:54:15,627 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0923127313655168, best pos: [0.05244807 0.06380291 0.05920296 0.04307802]
+2022-06-23 21:54:15,769 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:54:41,849 - pyswarms.single.global_best - INFO - Optimize for 6000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:54:46,198 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0188270008158598, best pos: [0.05070706 0.03700272 0.07199499 0.04886994]
+2022-06-23 21:54:46,339 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:54:56,250 - pyswarms.single.global_best - INFO - Optimize for 4000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:54:59,250 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.2033025056064748, best pos: [0.07725238 0.04610467 0.09341216 0.03615191]
+2022-06-23 21:54:59,363 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:55:19,083 - pyswarms.single.global_best - INFO - Optimize for 4000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:55:21,973 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.15179408967024, best pos: [0.08859535 0.036055   0.04912165 0.06176847]
+2022-06-23 21:55:22,106 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-23 21:57:11,714 - pyswarms.single.global_best - INFO - Optimize for 4000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-23 21:57:14,795 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.15179408967024, best pos: [0.08859535 0.036055   0.04912165 0.06176847]
+2022-06-23 21:57:14,924 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-25 20:26:50,967 - pyswarms.single.global_best - INFO - Optimize for 4000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-25 20:26:54,120 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.15179408967024, best pos: [0.08859535 0.036055   0.04912165 0.06176847]
+2022-06-25 20:26:54,715 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2022-06-25 20:34:54,985 - pyswarms.single.global_best - INFO - Optimize for 4000 iters with {'c1': 2, 'c2': 3, 'w': 0.8}
+2022-06-25 20:34:58,108 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.15179408967024, best pos: [0.08859535 0.036055   0.04912165 0.06176847]
+2022-06-25 20:34:58,270 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.

@@ -2,9 +2,10 @@ import numpy as np
 from datetime import datetime
 from matplotlib import pyplot as plt
 from pyswarms.single.global_best import GlobalBestPSO
+from pyswarms.utils.plotters.formatters import Designer
 from pyswarms.utils.plotters import (plot_cost_history,
                                     plot_contour, plot_surface)
-
+np.random.seed(15)
 #constantes do problema
 quantidade_de_reles = 3
 CTI=0.3
@@ -43,7 +44,7 @@ x_max = 1 * np.ones(3)
 x_min = [0.2/4.2790, 0.2/4.2790, 0.2/6.3019]
 bounds = (x_min, x_max)
 
-options = {'c1': 2, 'c2': 2, 'w':0.4}
+options = {'c1': 2, 'c2': 2, 'w':0.3}
 optimizer = GlobalBestPSO(n_particles, dimensions=quantidade_de_reles, options=options, bounds=bounds)
 
 
@@ -53,7 +54,7 @@ historico.write("Inicio em: {}\n".format(now.strftime("%H:%M:%S")))
 
 for semente_otimizador in range(quantidade_de_sementes):
     #otimizador
-    np.random.seed()
+
     cost, pos = optimizer.optimize(funcao_objetivo, iteracoes)
     historico.write('{:3.4f} {}\n'.format(cost,pos))
 
@@ -76,14 +77,16 @@ for i in range(quantidade_de_reles):
 
 plt.loglog(correntes, tempos[:,0],"k-")
 plt.loglog(correntes, tempos[:,1], "k--")
-plt.loglog(correntes, tempos[:,2], "k.-")
+plt.loglog(correntes, tempos[:,2], "k-.")
 
-plt.title("Coordenograma dos Relés de Sobrecorrente da Linha 1")
+plt.title("Coordenograma dos Relés de Sobrecorrente da Linha")
 plt.legend(['R1','R2','R3'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
 plt.grid(True, which="both", ls="-")
 plt.show()
 
-plot_cost_history(cost_history=optimizer.cost_history)
+my_designer = Designer(legend='',  label=['Número de Iterações','Custo da Função Objetivo'], text_fontsize='medium', title_fontsize='20', figsize=(8,6))
+plot_cost_history(cost_history=optimizer.cost_history, title='Histórico do custo para o Sistema 1', designer = my_designer)
 plt.show()

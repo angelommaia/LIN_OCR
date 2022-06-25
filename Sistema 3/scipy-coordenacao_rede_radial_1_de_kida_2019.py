@@ -67,8 +67,10 @@ plt.loglog(correntes, tempos[:,2], "k-.")
 
 plt.title("Coordenograma dos Relés de Sobrecorrente das barras 1 e 2")
 plt.legend(['R1', 'R2', 'R3'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
+
 plt.grid(True, which="both", ls="-")
 plt.show()
 
@@ -77,9 +79,11 @@ plt.loglog(correntes, tempos[:,1],"k--")
 plt.loglog(correntes, tempos[:,3], "k-.")
 
 plt.title("Coordenograma dos Relés de Sobrecorrente da Linha 2")
-plt.legend(['R0', 'R2', 'R4'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.legend(['R1', 'R2', 'R4'], loc="upper right")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
+
 plt.grid(True, which="both", ls="-")
 plt.show()
 
@@ -89,7 +93,9 @@ plt.loglog(correntes, tempos[:,4], "k-.")
 
 plt.title("Coordenograma dos Relés de Sobrecorrente da Linha 1")
 plt.legend(['R1', 'R3', 'R5'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
+
 plt.grid(True, which="both", ls="-")
 plt.show()

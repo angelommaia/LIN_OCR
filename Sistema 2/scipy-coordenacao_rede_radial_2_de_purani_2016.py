@@ -31,7 +31,7 @@ print('Solução:', round(res.fun, ndigits=2),
 #======PLOTAGEM DOS GRAFICOS======#
 
 #gerando espaço de correntes de 4000 ate 800 [A] para utilizar na plotagem
-correntes = np.linspace(900, 3000, num=43)
+correntes = np.linspace(1000, 5000, num=43)
 
 tempos = np.zeros((correntes.size,quantidade_de_reles))
 
@@ -40,21 +40,23 @@ for i in range(quantidade_de_reles):
 
 
 plt.loglog(correntes, tempos[:,0],"k-")
-plt.loglog(correntes, tempos[:,1], "k--")
+plt.loglog(correntes, tempos[:,3], "k--")
 
 plt.title("Coordenograma dos Relés de Sobrecorrente da Linha 1")
-plt.legend(['R1','R2'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.legend(['R1','R4'], loc="upper right")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
 plt.grid(True, which="both", ls="-")
 plt.show()
 
 plt.loglog(correntes, tempos[:,2],"k-")
-plt.loglog(correntes, tempos[:,3], "k--")
+plt.loglog(correntes, tempos[:,1], "k--")
 
 plt.title("Coordenograma dos Relés de Sobrecorrente da Linha 2")
-plt.legend(['R3','R4'], loc="upper right")
-plt.xlabel("Múltiplo")
+plt.legend(['R3','R2'], loc="upper right")
+plt.xlabel("Corrente [A]")
 plt.ylabel("Tempo [s]")
+plt.yticks(ticks=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200], labels=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4, 10, 20, 40, 100, 200])
 plt.grid(True, which="both", ls="-")
 plt.show()
